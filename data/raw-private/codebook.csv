@@ -1,0 +1,320 @@
+variable,value,label,wording
+sex,1,Male,Man
+sex,2,Female,Vrouw
+education,1,Low,Praktisch-opgeleid
+education,2,Medium,Middel-opgeleid
+education,3,High,Theoretisch-opgeleid
+ethnicity,1,Dutch,Nederlandse achtergrond
+ethnicity,2,Western Migrant,Westerste migratieachtergrond
+ethnicity,3,Non-Western Migrant,Niet-Westerse migratie-achtergrond
+region,1,"Three big cities (Amsterdam, Rotterdam, The Hague)","Een van de 3 grote steden of randgemeenten: Amsterdam (plus Diemen, Ouder-Amstel, Landsmeer, Amstelveen); Rotterdam (plus Schiedam, Capelle aan den IJssel, Krimpen aan den IJssel, Nederlek, Ridderkerk, Barendrecht, Albrandswaard; Den Haag (plus Leidschendam, Voorburg, Rijswijk, Wassenaar, Wateringen)"
+region,2,West of the country,"Het westen:  Noord-Holland, Zuid-Holland en Utrecht (exclusief een van de 3 grote steden)"
+region,3,North  of the country,"Het noorden: Groningen, Friesland en Drenthe"
+region,4,East  of the country,"Het oosten: Overijssel, Gelderland en Flevoland"
+region,5,South  of the country,"Het zuiden: Zeeland, Noord-Brabant en Limburg"
+urbanisation,1,Very strongly urbanised,Zeer sterk (>=2500 omgevingsadressen/km2)
+urbanisation,2,Strongly urbanised,Sterk (1500 tot 2500 omgevingsadressen/km2)
+urbanisation,3,Medium urbanised,Matig (1000 tot 1500 omgevingsadressen/km2)
+urbanisation,4,Lowly urbanised,Weinig (500 tot 1000 omgevingsadressen/km2)
+urbanisation,5,Not urbanised,Niet (<500 omgevingsadressen/km2)
+A1,1,Yes,"Ja, ik ga zeker stemmen"
+A1,2,No,"Nee, ik ga zeker niet stemmen"
+A1,3,Don't know,Ik weet nog niet of ik ga stemmen of niet
+A1,4,Not eligble,Ik mag (nog) niet stemmen
+A2a,1,VVD,VVD
+A2a,2,D66,D66
+A2a,3,PVV,PVV
+A2a,4,CDA,CDA
+A2a,5,SP,SP
+A2a,6,PvdA,PvdA
+A2a,7,GL,GL
+A2a,8,FvD,FvD
+A2a,9,PvdD,PvdD
+A2a,10,CU,CU
+A2a,11,JA21,JA21
+A2a,12,SGP,SGP
+A2a,13,Volt,Volt
+A2a,14,Denk,Denk
+A2a,15,50Plus,50Plus
+A2a,16,BBB,BBB
+A2a,66,Andere partij,Andere partij
+A2a,77,Blanco,Blanco
+A2a,88,Not eligible,Mag niet stemmenn
+A2a,97,Don't know,Weet ik nog niet
+A2a,98,Won't vote,Ik zou niet stemmen
+A2a,101,Algemene Waterschapspartij,Algemene Waterschapspartij
+A2a,102,Alliantie,Alliantie
+A2a,103,BVNL,BVNL
+A2a,104,CU-SGP,CU-SGP
+A2a,105,Code Oranje,Code Oranje
+A2a,106,FNP,FNP
+A2a,107,GO (Groningen),GO (Groningen)
+A2a,108,Goud (ZH),Goud (ZH)
+A2a,109,Groningen Belang,Groningen Belang
+A2a,110,Jezus Leeft,Jezus Leeft
+A2a,111,Lokaal Brabant,Lokaal Brabant
+A2a,112,Lokaal Limburg,Lokaal Limburg
+A2a,113,Sterk Lokaal Gelderland,Sterk Lokaal Gelderland
+A2a,114,Namens Noord-Hollanders,Namens Noord-Hollanders
+A2a,115,Natuurljk Fryslân,Natuurljk Fryslân
+A2a,116,NL met een plan (NH),NL met een plan (NH)
+A2a,118,Onafhankelijke Politiek Noord-Holland,Onafhankelijke Politiek Noord-Holland
+A2a,119,Ons Groningen,Ons Groningen
+A2a,120,Partij voor het Noorden,Partij voor het Noorden
+A2a,121,Partij voor Zeeland,Partij voor Zeeland
+A2a,122,Piratenpartij,Piratenpartij
+A2a,123,Provinciale Belang Fryslân,Provinciale Belang Fryslân
+A2a,124,PvdA-GL,PvdA-GL
+A2a,125,Sterk Lokaal Drenthe,Sterk Lokaal Drenthe
+A2a,126,Sterk Lokaal Flevoland,Sterk Lokaal Flevoland
+A2a,127,STIP (Drenthe),STIP (Drenthe)
+A2a,128,U26 Gemeenten (Utrecht),U26 Gemeenten (Utrecht)
+A2a,129,Zwarte Piet is Zwart,Zwarte Piet is Zwart
+A2a,130,Samen Lokaal Twente,Samen Lokaal Twente
+A2a,131,Ons Gelderland,Ons Gelderland
+A2b,1,CDA,CDA
+A2b,2,CU,CU
+A2b,3,D66,D66
+A2b,4,Denk,Denk
+A2b,5,FvD,FvD
+A2b,6,GL,GL
+A2b,7,PvdA,PvdA
+A2b,8,PvdD,PvdD
+A2b,9,PVV,PVV
+A2b,10,SGP,SGP
+A2b,11,SP,SP
+A2b,12,VVD,VVD
+A2b,13,Fractie den Haan,Fractie den Haan
+A2b,14,Other party,Andere partij
+A2b,15,Blanco,Blanco
+A2b,16,Don't know,Weet het niet
+A2b,17,BBB,BBB
+A2b,18,Bij1,Bij1
+A2b,19,Volt,Volt
+A2b,20,JA21,JA21
+A2b,21,BVNL,BVNL
+A2b,22,Lid Omtzigt,Lid Omtzigt
+A2b,23,Lid Gündoğan,Lid Gündoğan
+A2b,24,50Plus,50Plus
+A2b,25,Won't vote,Zou niet stemmen
+A2b,26,Not eligible,Mag niet stemmen
+A4,1,VVD,VVD
+A4,2,D66,D66
+A4,3,PVV,PVV
+A4,4,CDA,CDA
+A4,5,SP,SP
+A4,6,PvdA,PvdA
+A4,7,GL,GL
+A4,8,FvD,FvD
+A4,9,PvdD,PvdD
+A4,10,CU,CU
+A4,11,JA21,JA21
+A4,12,SGP,SGP
+A4,13,Volt,Volt
+A4,14,Denk,Denk
+A4,15,BBB,BBB
+A4,16,Bij1,Bij1
+B2,1,Bij1,Bij1
+B2,2,BBB,BBB
+B2,3,CDA,CDA
+B2,4,CU,CU
+B2,5,D66,D66
+B2,6,Denk,Denk
+B2,7,FvD,FvD
+B2,8,Fractie den Haan,Fractie den Haan
+B2,9,GL,GL
+B2,21,JA21,JA21
+B2,10,Lid Gündoğan,Lid Gündoğan
+B2,11,Lid Omtzigt,Lid Omtzigt
+B2,12,PvdA,PvdA
+B2,13,PvdD,PvdD
+B2,14,PVV,PVV
+B2,15,SGP,SGP
+B2,16,SP,SP
+B2,17,Volt,Volt
+B2,18,VVD,VVD
+B2,19,50Plus,50Plus
+B2,20,BVNL,BVNL
+C1,1,Bij1 - issue association,Bij1 - issue association
+C1,2,BBB - issue association,BBB - issue association
+C1,3,CDA - issue association,CDA - issue association
+C1,4,CU - issue association,CU - issue association
+C1,5,D66 - issue association,D66 - issue association
+C1,6,Denk - issue association,Denk - issue association
+C1,7,FvD - issue association,FvD - issue association
+C1,8,Fractie den Haan - issue association,Fractie den Haan - issue association
+C1,9,GL - issue association,GL - issue association
+C1,10,JA21 - issue association,JA21 - issue association
+C1,11,Lid Gündogan - issue association,Lid Gündogan - issue association
+C1,12,Lid Omtzigt - issue association,Lid Omtzigt - issue association
+C1,13,PvdA - issue association,PvdA - issue association
+C1,14,PvdD - issue association,PvdD - issue association
+C1,15,PVV - issue association,PVV - issue association
+C1,16,SGP - issue association,SGP - issue association
+C1,17,SP - issue association,SP - issue association
+C1,18,VOLT - issue association,VOLT - issue association
+C1,19,VVD - issue association,VVD - issue association
+C1,20,50Plus - issue association,50Plus - issue association
+C1,21,BVNL - issue association,BVNL - issue association
+C5,1,issue-importance: Asylumseekers & Migrants,issue_importance - Asielzoekers en migranten
+C5,2,issue-importance: Mobility & Infrastructure,issue_importance - Mobiliteit en infrastructuur
+C5,3,issue-importance: Security,issue_importance - Veiligheid (criminaliteit- en terreurbestrijding)
+C5,4,issue-importance: EU & Euro,issue_importance - Europese Unie en Euro
+C5,5,issue-importance: Health Care,issue_importance - Gezondheidszorg
+C5,6,issue-importance: Housing,issue_importance - Woningen
+C5,7,issue-importance: Environment,"issue_importance - Klimaat, natuur en milieu"
+C5,8,issue-importance: Norms & Values,"issue_importance - Normen, waarden en vrijheidsrechten"
+C5,9,issue-importance: Economy,"issue_importance - Economie, belastingen en overheidsuitgaven"
+C5,10,issue-importance: Education & Science,issue_importance - Onderwijs en wetenschap
+C5,11,issue-importance: Development Aid,issue_importance - Ontwikkelingshulp
+C5,12,issue-importance: Employment & Social Safety,"issue_importance - Werk, inkomen en sociale zekerheid"
+C5,13,issue-importance: Different topic,issue_importance - Ander onderwerp
+D2,1,The universe is the wisdom of irrational photons.,Het universum is de wijsheid van irrationele fotonen.
+D2,2,The goal of biofeedback is to plant companion seeds rather than discontinuity.,Het doel van biofeedback is het planten van begeleidingszaden in plaats van discontinuïteit.
+D2,3,Consciousness consists of electromagnetic resonance of quantum energy.,Bewustzijn bestaat uit elektromagnetische resonantie van kwantum energie.
+D2,4,"Today, science tells us that the essence of nature is potential.",Tegenwoordig vertelt de wetenschap ons dat de essentie van de natuur potentieel is.
+E1,1,VVD,VVD
+E1,2,D66,D66
+E1,3,PVV,PVV
+E1,4,CDA,CDA
+E1,5,SP,SP
+E1,6,PvdA,PvdA
+E1,7,GL,GL
+E1,8,FvD,FvD
+E1,9,PvdD,PvdD
+E1,10,CU,CU
+E1,11,JA21,JA21
+E1,12,SGP,SGP
+E1,13,Volt,Volt
+E1,14,Denk,Denk
+E1,15,50Plus,50Plus
+E1,16,BBB,BBB
+E1,17,Bij1,Bij1
+E1,66,Other,Andere partij
+E1,77,Blanco,Blanco
+E1,88,I wasn't eligble to vote,Ik mocht (nog) niet stemmen
+E1,98,I didn't vote,Ik heb niet gestemd
+E2,1,RILE self,Links-Rechtsplaatsing zelf
+E3,1,Bij1,Bij1
+E3,2,BBB,BBB
+E3,3,CDA,CDA
+E3,4,CU,CU
+E3,5,D66,D66
+E3,6,Denk,Denk
+E3,7,FvD,FvD
+E3,8,GL,GL
+E3,9,BVNL,BVNL
+E3,10,JA21,JA21
+E3,11,PvdA,PvdA
+E3,12,PvdD,PvdD
+E3,13,PVV,PVV
+E3,14,SGP,SGP
+E3,15,SP,SP
+E3,16,Vol,Vol
+E3,17,VVD,VVD
+E3,18,50Plus,50Plus
+F1,1,You know right away if someone is good or bad if you know what their political affiliation is,Je weet gelijk of iemand goed of slecht is als je weet wat hun politieke voorkeur is
+F1,2,People who have a different political opinion than me are just ill-informed,Mensen die een andere politieke mening hebben dan ik zijn gewoon slecht geïnformeerd
+F1,3,People who have different political views than me are not immediately bad people,Mensen die een andere politieke mening hebben dan ik zijn niet direct slechte mensen
+F1,4,Politicians should always listen carefully to people's problems,Politici moeten altijd goed luisteren naar de problemen van mensen
+F1,5,Politicians need not spend time among ordinary people to do their jobs,Politici hoeven geen tijd te spenderen tussen gewone mensen om hun werk te doen
+F1,6,The will of the common people should be the highest principle in politics,De wil van het gewone volk zou het hoogste principe moeten zijn in de politiek
+F1,7,"Against their better judgment, politicians promise more than they can deliver.",Tegen beter weten in beloven politici meer dan ze kunnen waarmaken.
+F1,8,What is called `compromising` in politics is really just betraying your principles.,"Wat men in de politiek ‘het sluiten van compromissen’ noemt, is eigenlijk gewoon het verraden van je principes."
+F1,9,"A strong head of government is good for the Netherlands, even if it stretches the rules a bit to get things done.","Een sterke regeringsleider is goed voor Nederland, ook als deze de regels wat oprekt om dingen voor elkaar te krijgen."
+F2,1,The justice system,de rechtspraak
+F2,2,Journalism,de journalistiek
+F2,3,The government,de regering
+F2,4,The European Union,de Europese Unie
+F2,5,Political parties,politieke partijen
+F2,6,Dutch democracy,de Nederlandse democratie
+F2,7,Science,de wetenschap
+F2,8,Big corporations,grote bedrijven
+F2,9,Banks,banken
+H1b,1,More economic inequality,Meer economische ongelijkheid
+H1b,2,Fewer working class politicians,Minder politici uit de arbeidersklasse
+H1b,3,"New ways of communication, such as Facebook or Instagram","Nieuwe manieren van communicatie, zoals Facebook of Instagram"
+H1b,4,Greater ethnic diversity in Dutch villages and cities,Grotere etnische diversiteit in Nederlandse dorpen en steden
+H1b,5,Fewer people attending church,Minder mensen die naar de kerk gaan
+H1b,6,New technological devices such as cell phones,Nieuwe technologische apparaten zoals mobiele telefoons
+H1b,7,More same-sex couples,Meer koppels van hetzelfde geslacht
+H1b,8,More women working instead of staying at home,Meer vrouwen die werken in plaats van thuis te blijven
+H1b,9,More choice in TV and entertainment,Meer keuze in tv en entertainment
+H1b,10,More immigrant and female politicians,Meer allochtone en vrouwelijke politici
+H1b,11,More young people going to college,Meer jongeren die naar de universiteit gaan
+H2,1,It is always others who benefit from all kinds of advantages in society,Het zijn altijd anderen die profiteren van alle soorten voordelen in de samenleving
+H2,2,"No matter how you look at it, people like me never have a windfall","Hoe je er ook naar kijkt, mensen zoals ik hebben nooit een meevaller"
+H2,3,Streets in my neighborhood are not maintained as well as streets in other neighborhoods,Straten in mijn wijk worden minder goed onderhouden dan straten in andere wijken
+H2,4,When the economy goes bad I am the first victim,Als het economisch slecht gaat ben ik het eerste slachtoffer
+H3,1,there are many important things happening in the world that the public is never informed about,er veel belangrijke dingen gebeuren in de wereld waar het publiek nooit over geïnformeerd wordt
+H3,2,politicians usually do not tell us the true motives for their decisions,politici ons meestal niet de ware motieven vertellen voor hun beslissingen
+H3,3,secret services closely monitor all citizens.,geheime diensten alle burgers nauwlettend in de gaten houden.
+H3,4,events that seem unrelated at first glance are often the result of covert activities.,gebeurtenissen die op het eerste gezicht ongerelateerd lijken vaak het gevolg zijn van geheime activiteiten.
+H3,5,there are secret organizations that have great influence on political decisions,er geheime organisaties zijn die veel invloed hebben op politieke beslissingen
+H4,1,Distrust,Wantrouwen
+H4,2,Aversion,Afschuw
+H4,3,Boredom,Verveling
+H4,4,Interest,Interesse
+H4,5,Hope,Hoop
+H4,6,Anxiety,Angst
+H4,7,Respect,Respect
+H4,8,Enthusiasm,Enthousiasme
+H5,1,I keep my opinions to myself,Ik houd mijn mening voor me
+H5,2,"I only stand up for my opinions before family, friends and colleagues","Ik kom alleen voor mijn mening uit tegenover familie, vrienden en collega’s"
+H5,3,"I always stand up for my opinions, even in front of strangers","Ik kom altijd voor mijn mening uit, ook tegenover onbekenden"
+H11,1,How sympathetic do you feel to the student?,Hoe sympathiek voelt u zich ten opzichte van de student?
+H11,2,How warm do you feel to the student?,Hoe warm voelt u zich ten opzichte van de student?
+H11,3,How compassionate do you feel toward the student?,Hoe medelevend voelt u zich ten opzichte van de student?
+H11,4,To what extent do you feel affected by the student's situation?,In hoeverre voelt u zich geraakt door de situatie van de student?
+H11,5,To what extent do you think it is appropriate to give money to help the student?,In hoeverre vindt u het gepast om geld te geven om de student te helpen?
+H12,1,donation,donatie
+H13,1,feeling_thermometer VVD,NA
+H13,2,feeling_thermometer GroenLinks,NA
+H13,3,feeling_thermometer own party,NA
+H14,1,participation online controversial debates,deelname online controversiele debatten
+H15,1,Another participant in the discussion is offended,Een andere deelnemer aan de discussie is beledigd
+H15,2,Participants are anonymous,Deelnemers zijn anoniem
+H15,3,Participants are not anonymous,Deelnemers zijn niet anoniem
+H15,4,I know the participants,Ik ken de deelnemers aan de discussie persoonlijk
+H15,5,The website where the discussion takes place automatically deletes hateful comments using an algorithm,De website waar de discussie plaatsvindt verwijdert automatisch hatelijke commentaren met behulp van een algoritme
+H15,6,The website hosting the discussion employs someone to remove hateful comments,De website waar de discussie plaatsvindt heeft iemand in dienst om hatelijke commentaren te verwijderen
+H15,7,Hateful comments will not be deleted,Hatelijke commentaren worden niet verwijderd
+H15,8,There are discussion rules on the forum that emphasize politeness,Er zijn discussieregels op het forum die de nadruk leggen op beleefdheid
+H15,9,There are discussion rules in the forum that emphasize freedom of speech,Er zijn discussieregels in het forum die de vrijheid van meningsuiting benadrukken
+H15,10,Participants state that they want to understand each other's perspective,De deelnemers verklaren dat zij elkaars perspectief willen begrijpen
+H15,11,Participants show empathy for the experiences of others with a different point of view,Deelnemers tonen empathie voor de ervaringen van anderen met een ander gezichtspunt
+H15,12,I see that I do not share the same views as most of the other participants.,Ik zie dat ik niet dezelfde opvattingen deel als de meeste andere deelnemers
+H15_1,1,Encourages participation,Moedigt aan om deel te nemen
+H15_1,3,Discourages participation,Ontmoedigt om deel te nemen
+H15_1,4,No opinion,Geen mening
+H16,1,perspective_taking - I sometimes find it difficult to see things from the other person's point of view,Ik vind het soms moeilijk om de dingen te zien vanuit het standpunt van de ander
+H16,2,perspective_taking - I try to look at everyone's side of a disagreement before making a decision.,Ik probeer ieders kant van een meningsverschil te bekijken voordat ik een beslissing neem.
+H16,3,perspective_taking - Sometimes I try to understand my friends better by imagining what things look like from their perspective.,Soms probeer ik mijn vrienden beter te begrijpen door me voor te stellen hoe de dingen er vanuit hun perspectief uitzien.
+H16,4,"perspective_taking - If I am sure I am right about something, I do not waste much time listening to the arguments of others.","Als ik zeker weet dat ik ergens gelijk in heb, verspil ik niet veel tijd aan het luisteren naar de argumenten van anderen."
+H16,5,perspective_taking - I believe there are two sides to every question and try to look at them both,Ik geloof dat elke vraag twee kanten heeft en probeer ze allebei te bekijken
+H16,6,"perspective_taking - ls I am angry with someone, I usually try to put myself in their shoes for a moment.","ls ik boos ben op iemand, probeer ik me meestal even in zijn schoenen te verplaatsen."
+H16,7,"perspective_taking - Before I criticize someone, I try to imagine how I would feel in their place","Voordat ik iemand bekritiseer, probeer ik me voor te stellen hoe ik me zou voelen in hun plaats"
+H17,1,"empathy_disposition - I often have tender, concerned feelings for people less fortunate than me.","empathy_disposition - Ik heb vaak tedere, bezorgde gevoelens voor mensen die het minder goed hebben dan ik."
+H17,2,empathy_disposition - Sometimes I don't feel sorry for other people when they have problems.,empathy_disposition - Soms heb ik geen medelijden met andere mensen als ze problemen hebben.
+H17,3,"empathy_disposition - When I see someone being taken advantage of, I feel protective.","empathy_disposition - Als ik zie dat er van iemand wordt geprofiteerd, voel ik me beschermend."
+H17,4,Empathy_disposition - The unhappiness of others usually doesn't bother me so much.,empathy_disposition - Het ongeluk van anderen stoort me meestal niet zo.
+H17,5,"empathy_disposition - When I see someone being treated unfairly, I sometimes have little compassion for that person.","empathy_disposition - Als ik zie dat iemand onrechtvaardig wordt behandeld, heb ik soms weinig medelijden met die persoon."
+H17,6,empathy_disposition - I am often very moved by things I see happening.,empathy_disposition - Ik ben vaak erg ontroerd door dingen die ik zie gebeuren.
+H17,7,empathy_disposition - I would describe myself as a fairly gentle person.,empathy_disposition - Ik zou mezelf omschrijven als een vrij zachtaardig persoon.
+I1,1,Television,Televisie
+I1,2,Newspapers or opinion magazines (paper or online),Kranten of opiniebladen (op papier of online)
+I1,3,Radio (including podcast and online),Radio (inclusief podcast en online)
+I1,4,Online news sites (such as nu.nl),Online nieuwssites (zoals nu.nl)
+I1,5,"Social media (such as Facebook, Twitter)","Social media (bijvoorbeeld Facebook, Twitter)"
+I1,6,(Offline) conversations with people,(Offline) gesprekken met mensen
+I1,7,News apps or push messages on your phone,Nieuwsapps of pushberichten op uw telefoon
+I20,1,Television,Televisie
+I20,2,Newspapers or opinion magazines (paper or online),Kranten of opiniebladen (op papier of online)
+I20,3,Radio (including podcast and online),Radio (inclusief podcast en online)
+I20,4,Online news sites (such as nu.nl),Online nieuwssites (zoals nu.nl)
+I20,5,"Social media (such as Facebook, Twitter)","Social media (bijvoorbeeld Facebook, Twitter)"
+I20,6,(Offline) conversations with people,(Offline) gesprekken met mensen
+I20,7,News apps or push messages on your phone,Nieuwsapps of pushberichten op uw telefoon
+I21,1,you do not know the exact source of this information,u niet precies weet wat de bron is van deze informatie
+I21,2,you are going to find out for yourself if it is correct,u zelf gaat uitzoeken of het klopt
+I21,3,you doubt information you encounter,u twijfelt aan informatie die u tegenkomt
