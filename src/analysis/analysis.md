@@ -15,13 +15,18 @@ Data Analysis
   - [H2b: Messages mentioning scapegoats will decrease affective
     sentiment for ideological social
     out-groups.](#h2b-messages-mentioning-scapegoats-will-decrease-affective-sentiment-for-ideological-social-out-groups)
-- [Heterogenous treatments](#heterogenous-treatments)
-  - [Ideology](#ideology)
-  - [Party Choice](#party-choice)
+  - [For in- and out-groups pooled](#for-in--and-out-groups-pooled)
+  - [Robustness1: Main analysis without people positioning themselves in
+    the
+    center](#robustness1-main-analysis-without-people-positioning-themselves-in-the-center)
+  - [Robustness2: For each social group
+    (appendix)](#robustness2-for-each-social-group-appendix)
+  - [Robustness3: Heterogenous
+    treatments](#robustness3-heterogenous-treatments)
 
 ## Descriptives
 
-<img src="../../report/figures/vars-1.png" style="display: block; margin: auto;" /><img src="../../report/figures/vars-2.png" style="display: block; margin: auto;" />
+<img src="../../report/figures/vars-1.png" style="display: block; margin: auto;" /><img src="../../report/figures/vars-2.png" style="display: block; margin: auto;" /><img src="../../report/figures/vars-3.png" style="display: block; margin: auto;" />
 
 <img src="../../report/figures/vars2-1.png" style="display: block; margin: auto;" />
 
@@ -30,6 +35,8 @@ Data Analysis
 ## Experiment
 
 <img src="../../report/figures/treatment-view-1.png" style="display: block; margin: auto;" />
+
+<img src="../../report/figures/treatment-simple-1.png" style="display: block; margin: auto;" />
 
 <img src="../../report/figures/balance-test-1.png" style="display: block; margin: auto;" />
 
@@ -41,14 +48,40 @@ Data Analysis
 
 ### H2b: Messages mentioning scapegoats will decrease affective sentiment for ideological social out-groups.
 
+### For in- and out-groups pooled
+
+<img src="../../report/figures/testing-h-pooled-1.png" style="display: block; margin: auto;" />
+
+### Robustness1: Main analysis without people positioning themselves in the center
+
+<img src="../../report/figures/robustness1-1.png" style="display: block; margin: auto;" />
+
+### Robustness2: For each social group (appendix)
+
 <img src="../../report/figures/testing-h-1.png" style="display: block; margin: auto;" /><img src="../../report/figures/testing-h-2.png" style="display: block; margin: auto;" />
 
-## Heterogenous treatments
+### Robustness3: Heterogenous treatments
 
-### Ideology
+#### Ideology
+
+<img src="../../report/figures/he-ideo-p-1.png" style="display: block; margin: auto;" />
 
 <img src="../../report/figures/he-ideo-1.png" style="display: block; margin: auto;" /><img src="../../report/figures/he-ideo-2.png" style="display: block; margin: auto;" />
 
-### Party Choice
+#### Party Choice
+
+<img src="../../report/figures/he-vc-p-1.png" style="display: block; margin: auto;" />
 
 <img src="../../report/figures/he-vc-1.png" style="display: block; margin: auto;" /><img src="../../report/figures/he-vc-2.png" style="display: block; margin: auto;" />
+
+#### Populist vs Non-Populist vote support
+
+<img src="../../report/figures/he-popvote-1.png" style="display: block; margin: auto;" />
+
+#### Low vs High Levels of Education
+
+<img src="../../report/figures/he-edu-1.png" style="display: block; margin: auto;" />
+
+#### Gender
+
+<img src="../../report/figures/he-gender-1.png" style="display: block; margin: auto;" />

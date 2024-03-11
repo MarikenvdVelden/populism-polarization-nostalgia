@@ -4,7 +4,7 @@ Online research compendium of the paper entitled _Populism and Polarization: A N
 This repository combines the preregistration plan and the paper with the data &amp; analysis compendium.
 
 ## Preregistration
-* View the preregistration plan [here](https://aspredicted.org/YST_2GHf) - anonymous.
+* View the preregistration plan [here](https://aspredicted.org/YST_2GH) - anonymous.
 
 ## Paper
 View the draft of the paper [here](report/draft.pdf)

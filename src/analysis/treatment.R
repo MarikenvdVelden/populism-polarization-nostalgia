@@ -87,3 +87,24 @@ p2 <- df |>
   coord_flip() +
   theme(legend.position = "bottom",
         legend.title = element_blank())
+
+p3 <- dl |> 
+  mutate(ideology = recode(ideology,
+                           `0` = "Progressive Voters",
+                           `1` = "Conservative Voters")) |> 
+  drop_na(group_type) |> 
+  group_by(treatment, ideology, group_type) |> 
+  ggplot(aes(x = treatment, y = sentiment)) +
+  see::geom_violinhalf(fill = fig_cols[9], alpha = .4,
+                       color = "white") +
+  stat_summary(aes(shape = ideology), fun.data = "mean_cl_boot", geom = "pointrange",
+               colour = "gray55") +
+  labs(x = "", 
+       y = "Affective Sentiment towards Social Groups \n (1 = Very negative, 10 = Very positive)") +
+  facet_grid(.~group_type, scales = "free") +
+  #facet_wrap(vars(name), ncol = 1) +
+  theme_ipsum() +
+  coord_flip() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+  

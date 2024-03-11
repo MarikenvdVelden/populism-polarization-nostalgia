@@ -31,24 +31,28 @@ load(here("data/raw-private/cleaned_data_w1.RData"))
 load(here("data/raw-private/cleaned_data_w4.RData"))
 source(here("src/analysis/data_for_analysis_exp.R"))
 save(d, file = here("data/intermediate/cleaned_experiment.RData"))
+#make data in long format for "simplified: analyses
+source(here("src/analysis/long_data.R"))
 ```
 
 ## Descriptives
 ```{r "vars", fig.width=12, fig.height = 6}
 source(here("src/analysis/descriptives.R"))
-pd2b
+pd2b #Fig 2 manuscript
 
-pd3a + pd3b +
+pd5 #Fig 4 in manuscript
+
+pd3a + pd3b + #addititonal check 
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 ```
 
 ```{r "vars2", fig.width=12, fig.height = 10}
-pd1a + pd1b +
+pd1a + pd1b + #additional check 
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 ```
 
 ```{r "vars3", fig.width=12, fig.height = 8}
-pd4a + pd4b +
+pd4a + pd4b + #with all social groups or validity for dichitomization?
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 ```
 
@@ -57,6 +61,10 @@ pd4a + pd4b +
 source(here("src/analysis/treatment.R"))
 p1 + p2 +
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
+```
+
+```{r "treatment-simple", fig.width=8, fig.height=6}
+p3 #Fig X
 ```
 
 ```{r "balance-test"}
@@ -69,9 +77,20 @@ bp
 ### H2a: Nostalgic messages will decrease affective sentiment for ideological social out-groups.
 ### H2b: Messages mentioning scapegoats will decrease affective sentiment for ideological social out-groups.
 
-```{r "testing-h", fig.width=12, fig.height=6, eval=T}
+### For in- and out-groups pooled
+```{r "testing-h-pooled", fig.width=12, fig.height=6,}
 source(here("src/analysis/h1_exp.R"))
+p1_h1
+```
 
+### Robustness1: Main analysis without people positioning themselves in the center
+```{r "robustness1"}
+source(here("src/analysis/h_nocenter.R"))
+p1_h1_e
+```
+
+### Robustness2: For each social group (appendix)
+```{r "testing-h", fig.width=12, fig.height=6, eval=T}
 p1a_l + p1a_r +
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 
@@ -79,9 +98,14 @@ p1b_l + p1b_r +
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 ```
 
-## Heterogenous treatments
+### Robustness3: Heterogenous treatments
 
-### Ideology
+#### Ideology
+```{r "he-ideo-p", fig.width=12, fig.height=8, eval=T}
+source(here("src/analysis/he_ideology_pooled.R"))
+phe_i
+```
+
 ```{r "he-ideo", fig.width=12, fig.height=12, eval=T}
 source(here("src/analysis/he_ideology.R"))
 
@@ -92,7 +116,11 @@ p2e_l + p2e_r +
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
 ```
 
-### Party Choice
+#### Party Choice
+```{r "he-vc-p", fig.width=12, fig.height=12, eval=T}
+source(here("src/analysis/he_partychoice_pooled.R"))
+phe_vc
+```
 
 ```{r "he-vc", fig.width=12, fig.height=12, eval=T}
 source(here("src/analysis/he_partychoice.R"))
@@ -102,4 +130,22 @@ p1e_l + p1e_r +
 
 p2e_l + p2e_r +
   plot_layout(guides = "collect") & theme(legend.position = 'bottom')
+```
+
+#### Populist vs Non-Populist vote support
+```{r "he-popvote", fig.width=12, fig.height=8, eval=T}
+source(here("src/analysis/he_popvote_pooled.R"))
+phe_pop
+```
+
+#### Low vs High Levels of Education
+```{r "he-edu", fig.width=12, fig.height=8, eval=T}
+source(here("src/analysis/he_edu_pooled.R"))
+phe_edu
+```
+
+#### Gender
+```{r "he-gender", fig.width=12, fig.height=8, eval=T}
+source(here("src/analysis/he_gender_pooled.R"))
+phe_gen
 ```

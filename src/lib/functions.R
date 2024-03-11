@@ -16,6 +16,7 @@ library(lavaan)
 library(GGally)
 library(questionr)
 library(interactions)
+library(lme4)
 set.seed(26111985)
 
 fig_cols <- yarrr::piratepal(palette = "basel", 

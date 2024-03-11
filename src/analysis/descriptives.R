@@ -194,3 +194,26 @@ pd4b <- pd1 |>
   theme(legend.position = "bottom",
         legend.title = element_blank()) +
   guides(col = guide_legend(nrow=2))
+
+pd5 <- dl |> 
+  drop_na(sentiment) |> 
+  mutate(E2_2 = recode(E2_2,
+                       `1` = "Very Conservative",
+                       `2` = "Conservative",
+                       `3` = "Center",
+                       `4` = "Progressive",
+                       `5` = "Very Progressive"),
+         E2_2 = factor(E2_2,
+                       levels = c("Very Conservative", "Conservative",
+                                  "Center", "Progressive",
+                                  "Very Progressive"))) |> 
+  ggplot(aes(y = E2_2, x = sentiment, colour = group_type)) +
+  stat_summary(aes(colour = group_type), fun.data = "mean_cl_boot", 
+               geom = "pointrange", position = position_dodge(.5)) +
+  labs(y = "", 
+       x = "Affective Sentiment for Ideological Social Groups \n (1 = very negative, 10 = very positive)") +  
+  geom_vline(xintercept = 5, linetype = "dashed",
+             color = "lightgray", size = .5) +
+  theme_ipsum() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
